@@ -1,0 +1,9 @@
+# .clang-format file for Allman style braces and proper indentation
+BasedOnStyle: LLVM  # Use LLVM as the base style
+IndentWidth: 4      # Set indentation width to 4 spaces
+UseTab: Never       # Always use spaces instead of tabs
+BreakBeforeBraces: Allman  # Place braces on a new line
+ColumnLimit: 100    # Maximum column width
+AlignConsecutiveAssignments: true  # Align assignments vertically
+AlignTrailingComments: true        # Align trailing comments
+IndentCaseLabels: true  # Indent case labels within a switch

@@ -1,0 +1,16 @@
+CommandInvokerTest.ExecuteCommands 24 0.000179966
+FrequencyCommandTest.FrequencyChange 24 0.000192968
+DurationCommandTest.DurationChange 24 0.000198032
+StartJackClientCommandTest.ActivatesClient 0 0
+SimplePeakProcessorTest.ProcessSignalAboveThreshold 18 0.000287151
+SimplePeakProcessorTest.ProcessSignalBelowThreshold 22 0.000212724
+SimplePeakProcessorTest.PeakHoldFeature 0 0
+SimplePeakProcessorTest.CurrentPPMDbConversion 22 0.000181883
+SimplePeakProcessorTest.MinMaxPeakValues 5 0
+JackClientTest.InitializeClient 19 0.00213048
+JackClientTest.ActivateClient 19 0.00444221
+JackClientTest.PlayWavFile 19 0.00221693
+JackClientTest.ConnectPorts 19 0.002201
+---
+SimplePeakProcessorTest.PeakHoldFeature
+SimplePeakProcessorTest.MinMaxPeakValues

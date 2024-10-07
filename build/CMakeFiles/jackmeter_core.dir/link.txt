@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjackmeter_core.a CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o
+/usr/bin/ranlib libjackmeter_core.a

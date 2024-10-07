@@ -1,0 +1,346 @@
+Start testing: Oct 07 01:06 WEST
+----------------------------------------------------------
+1/12 Testing: CommandInvokerTest.ExecuteCommands
+1/12 Test: CommandInvokerTest.ExecuteCommands
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=CommandInvokerTest.ExecuteCommands" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"CommandInvokerTest.ExecuteCommands" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CommandInvokerTest.ExecuteCommands
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CommandInvokerTest
+[ RUN      ] CommandInvokerTest.ExecuteCommands
+Rate updated to: 10
+[       OK ] CommandInvokerTest.ExecuteCommands (0 ms)
+[----------] 1 test from CommandInvokerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CommandInvokerTest.ExecuteCommands" end time: Oct 07 01:06 WEST
+"CommandInvokerTest.ExecuteCommands" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: FrequencyCommandTest.FrequencyChange
+2/12 Test: FrequencyCommandTest.FrequencyChange
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=FrequencyCommandTest.FrequencyChange" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"FrequencyCommandTest.FrequencyChange" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FrequencyCommandTest.FrequencyChange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FrequencyCommandTest
+[ RUN      ] FrequencyCommandTest.FrequencyChange
+Rate updated to: 10
+[       OK ] FrequencyCommandTest.FrequencyChange (0 ms)
+[----------] 1 test from FrequencyCommandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FrequencyCommandTest.FrequencyChange" end time: Oct 07 01:06 WEST
+"FrequencyCommandTest.FrequencyChange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: DurationCommandTest.DurationChange
+3/12 Test: DurationCommandTest.DurationChange
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=DurationCommandTest.DurationChange" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"DurationCommandTest.DurationChange" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = DurationCommandTest.DurationChange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DurationCommandTest
+[ RUN      ] DurationCommandTest.DurationChange
+Duration updated to: 20
+[       OK ] DurationCommandTest.DurationChange (0 ms)
+[----------] 1 test from DurationCommandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DurationCommandTest.DurationChange" end time: Oct 07 01:06 WEST
+"DurationCommandTest.DurationChange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: SimplePeakProcessorTest.ProcessSignalAboveThreshold
+4/12 Test: SimplePeakProcessorTest.ProcessSignalAboveThreshold
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.ProcessSignalAboveThreshold" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"SimplePeakProcessorTest.ProcessSignalAboveThreshold" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SimplePeakProcessorTest.ProcessSignalAboveThreshold
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SimplePeakProcessorTest
+[ RUN      ] SimplePeakProcessorTest.ProcessSignalAboveThreshold
+[       OK ] SimplePeakProcessorTest.ProcessSignalAboveThreshold (0 ms)
+[----------] 1 test from SimplePeakProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SimplePeakProcessorTest.ProcessSignalAboveThreshold" end time: Oct 07 01:06 WEST
+"SimplePeakProcessorTest.ProcessSignalAboveThreshold" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: SimplePeakProcessorTest.ProcessSignalBelowThreshold
+5/12 Test: SimplePeakProcessorTest.ProcessSignalBelowThreshold
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.ProcessSignalBelowThreshold" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"SimplePeakProcessorTest.ProcessSignalBelowThreshold" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SimplePeakProcessorTest.ProcessSignalBelowThreshold
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SimplePeakProcessorTest
+[ RUN      ] SimplePeakProcessorTest.ProcessSignalBelowThreshold
+[       OK ] SimplePeakProcessorTest.ProcessSignalBelowThreshold (0 ms)
+[----------] 1 test from SimplePeakProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SimplePeakProcessorTest.ProcessSignalBelowThreshold" end time: Oct 07 01:06 WEST
+"SimplePeakProcessorTest.ProcessSignalBelowThreshold" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: SimplePeakProcessorTest.PeakHoldFeature
+6/12 Test: SimplePeakProcessorTest.PeakHoldFeature
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.PeakHoldFeature" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"SimplePeakProcessorTest.PeakHoldFeature" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SimplePeakProcessorTest.PeakHoldFeature
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SimplePeakProcessorTest
+[ RUN      ] SimplePeakProcessorTest.PeakHoldFeature
+/home/wagnerkeller/projects/jackmeter/build/_deps/googletest-src/googletest/src/gtest.cc:2498: Failure
+Failed
+All tests in the same test suite must use the same test fixture
+class, so mixing TEST_F and TEST in the same test suite is
+illegal.  In test suite SimplePeakProcessorTest,
+test ProcessSignalAboveThreshold is defined using TEST_F but
+test PeakHoldFeature is defined using TEST.  You probably
+want to change the TEST to TEST_F or move it to another test
+case.
+[  FAILED  ] SimplePeakProcessorTest.PeakHoldFeature (0 ms)
+[----------] 1 test from SimplePeakProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SimplePeakProcessorTest.PeakHoldFeature
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"SimplePeakProcessorTest.PeakHoldFeature" end time: Oct 07 01:06 WEST
+"SimplePeakProcessorTest.PeakHoldFeature" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: SimplePeakProcessorTest.CurrentPPMDbConversion
+7/12 Test: SimplePeakProcessorTest.CurrentPPMDbConversion
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.CurrentPPMDbConversion" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"SimplePeakProcessorTest.CurrentPPMDbConversion" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SimplePeakProcessorTest.CurrentPPMDbConversion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SimplePeakProcessorTest
+[ RUN      ] SimplePeakProcessorTest.CurrentPPMDbConversion
+[       OK ] SimplePeakProcessorTest.CurrentPPMDbConversion (0 ms)
+[----------] 1 test from SimplePeakProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SimplePeakProcessorTest.CurrentPPMDbConversion" end time: Oct 07 01:06 WEST
+"SimplePeakProcessorTest.CurrentPPMDbConversion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: SimplePeakProcessorTest.MinMaxPeakValues
+8/12 Test: SimplePeakProcessorTest.MinMaxPeakValues
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.MinMaxPeakValues" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"SimplePeakProcessorTest.MinMaxPeakValues" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SimplePeakProcessorTest.MinMaxPeakValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SimplePeakProcessorTest
+[ RUN      ] SimplePeakProcessorTest.MinMaxPeakValues
+/home/wagnerkeller/projects/jackmeter/build/_deps/googletest-src/googletest/src/gtest.cc:2498: Failure
+Failed
+All tests in the same test suite must use the same test fixture
+class, so mixing TEST_F and TEST in the same test suite is
+illegal.  In test suite SimplePeakProcessorTest,
+test ProcessSignalAboveThreshold is defined using TEST_F but
+test MinMaxPeakValues is defined using TEST.  You probably
+want to change the TEST to TEST_F or move it to another test
+case.
+[  FAILED  ] SimplePeakProcessorTest.MinMaxPeakValues (0 ms)
+[----------] 1 test from SimplePeakProcessorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SimplePeakProcessorTest.MinMaxPeakValues
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"SimplePeakProcessorTest.MinMaxPeakValues" end time: Oct 07 01:06 WEST
+"SimplePeakProcessorTest.MinMaxPeakValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: JackClientTest.InitializeClient
+9/12 Test: JackClientTest.InitializeClient
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.InitializeClient" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"JackClientTest.InitializeClient" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = JackClientTest.InitializeClient
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JackClientTest
+[ RUN      ] JackClientTest.InitializeClient
+[       OK ] JackClientTest.InitializeClient (35 ms)
+[----------] 1 test from JackClientTest (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"JackClientTest.InitializeClient" end time: Oct 07 01:06 WEST
+"JackClientTest.InitializeClient" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: JackClientTest.ActivateClient
+10/12 Test: JackClientTest.ActivateClient
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.ActivateClient" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"JackClientTest.ActivateClient" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = JackClientTest.ActivateClient
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JackClientTest
+[ RUN      ] JackClientTest.ActivateClient
+[       OK ] JackClientTest.ActivateClient (79 ms)
+[----------] 1 test from JackClientTest (79 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (79 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"JackClientTest.ActivateClient" end time: Oct 07 01:06 WEST
+"JackClientTest.ActivateClient" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: JackClientTest.PlayWavFile
+11/12 Test: JackClientTest.PlayWavFile
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.PlayWavFile" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"JackClientTest.PlayWavFile" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = JackClientTest.PlayWavFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JackClientTest
+[ RUN      ] JackClientTest.PlayWavFile
+Failed to open audio file: test.wav
+Failed to play WAV file: test.wav
+[       OK ] JackClientTest.PlayWavFile (36 ms)
+[----------] 1 test from JackClientTest (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"JackClientTest.PlayWavFile" end time: Oct 07 01:06 WEST
+"JackClientTest.PlayWavFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: JackClientTest.ConnectPorts
+12/12 Test: JackClientTest.ConnectPorts
+Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.ConnectPorts" "--gtest_also_run_disabled_tests"
+Directory: /home/wagnerkeller/projects/jackmeter/build
+"JackClientTest.ConnectPorts" start time: Oct 07 01:06 WEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = JackClientTest.ConnectPorts
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JackClientTest
+[ RUN      ] JackClientTest.ConnectPorts
+[       OK ] JackClientTest.ConnectPorts (36 ms)
+[----------] 1 test from JackClientTest (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"JackClientTest.ConnectPorts" end time: Oct 07 01:06 WEST
+"JackClientTest.ConnectPorts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 07 01:06 WEST
