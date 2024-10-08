@@ -138,12 +138,12 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/jackmeter_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=16,17,18,19,20,21,22 "Built target jackmeter_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29 "Built target jackmeter_core"
 .PHONY : CMakeFiles/jackmeter_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/jackmeter_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/jackmeter_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 0
 .PHONY : CMakeFiles/jackmeter_core.dir/rule
@@ -169,7 +169,7 @@ CMakeFiles/JackMeter.dir/all: CMakeFiles/jackmeter_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/JackMeter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/JackMeter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 0
 .PHONY : CMakeFiles/JackMeter.dir/rule
@@ -194,12 +194,12 @@ CMakeFiles/UnitTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest
 CMakeFiles/UnitTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=3,4,5,6,7 "Built target UnitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target UnitTests"
 .PHONY : CMakeFiles/UnitTests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/UnitTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/UnitTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagnerkeller/projects/jackmeter/build/CMakeFiles 0
 .PHONY : CMakeFiles/UnitTests.dir/rule
@@ -220,7 +220,7 @@ CMakeFiles/UnitTests.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=8,9 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=10,11 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -247,7 +247,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=10,11 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=12,13 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -273,7 +273,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=12,13 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=14,15 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,7 +299,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=14,15 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=16,17 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

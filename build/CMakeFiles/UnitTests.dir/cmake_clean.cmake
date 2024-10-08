@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o"
+  "CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o.d"
   "CMakeFiles/UnitTests.dir/tests/test_command.cpp.o"
   "CMakeFiles/UnitTests.dir/tests/test_command.cpp.o.d"
+  "CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o"
+  "CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o.d"
   "CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o"
   "CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o.d"
   "CMakeFiles/UnitTests.dir/tests/test_main.cpp.o"

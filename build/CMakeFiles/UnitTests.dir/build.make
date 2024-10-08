@@ -73,64 +73,94 @@ CMakeFiles/UnitTests.dir/tests/test_main.cpp.o: CMakeFiles/UnitTests.dir/flags.m
 CMakeFiles/UnitTests.dir/tests/test_main.cpp.o: /home/wagnerkeller/projects/jackmeter/tests/test_main.cpp
 CMakeFiles/UnitTests.dir/tests/test_main.cpp.o: CMakeFiles/UnitTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UnitTests.dir/tests/test_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_main.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_main.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_main.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_main.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_main.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_main.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_main.cpp
 
 CMakeFiles/UnitTests.dir/tests/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitTests.dir/tests/test_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_main.cpp > CMakeFiles/UnitTests.dir/tests/test_main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_main.cpp > CMakeFiles/UnitTests.dir/tests/test_main.cpp.i
 
 CMakeFiles/UnitTests.dir/tests/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitTests.dir/tests/test_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_main.cpp -o CMakeFiles/UnitTests.dir/tests/test_main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_main.cpp -o CMakeFiles/UnitTests.dir/tests/test_main.cpp.s
 
 CMakeFiles/UnitTests.dir/tests/test_command.cpp.o: CMakeFiles/UnitTests.dir/flags.make
 CMakeFiles/UnitTests.dir/tests/test_command.cpp.o: /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp
 CMakeFiles/UnitTests.dir/tests/test_command.cpp.o: CMakeFiles/UnitTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UnitTests.dir/tests/test_command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_command.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_command.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_command.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_command.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_command.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_command.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp
 
 CMakeFiles/UnitTests.dir/tests/test_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitTests.dir/tests/test_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp > CMakeFiles/UnitTests.dir/tests/test_command.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp > CMakeFiles/UnitTests.dir/tests/test_command.cpp.i
 
 CMakeFiles/UnitTests.dir/tests/test_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitTests.dir/tests/test_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp -o CMakeFiles/UnitTests.dir/tests/test_command.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp -o CMakeFiles/UnitTests.dir/tests/test_command.cpp.s
 
 CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o: CMakeFiles/UnitTests.dir/flags.make
 CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o: /home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp
 CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o: CMakeFiles/UnitTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp
 
 CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp > CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp > CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.i
 
 CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp -o CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp -o CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.s
 
 CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o: CMakeFiles/UnitTests.dir/flags.make
 CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o: /home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp
 CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o: CMakeFiles/UnitTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp
 
 CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp > CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp > CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.i
 
 CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp -o CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp -o CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.s
+
+CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o: CMakeFiles/UnitTests.dir/flags.make
+CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o: /home/wagnerkeller/projects/jackmeter/tests/test_FFTProcessor.cpp
+CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o: CMakeFiles/UnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_FFTProcessor.cpp
+
+CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_FFTProcessor.cpp > CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.i
+
+CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_FFTProcessor.cpp -o CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.s
+
+CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o: CMakeFiles/UnitTests.dir/flags.make
+CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o: /home/wagnerkeller/projects/jackmeter/tests/test_discontinuity_processor.cpp
+CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o: CMakeFiles/UnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o -MF CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o.d -o CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o -c /home/wagnerkeller/projects/jackmeter/tests/test_discontinuity_processor.cpp
+
+CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/tests/test_discontinuity_processor.cpp > CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.i
+
+CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/tests/test_discontinuity_processor.cpp -o CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.s
 
 # Object files for target UnitTests
 UnitTests_OBJECTS = \
 "CMakeFiles/UnitTests.dir/tests/test_main.cpp.o" \
 "CMakeFiles/UnitTests.dir/tests/test_command.cpp.o" \
 "CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o" \
-"CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o"
+"CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o" \
+"CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o" \
+"CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o"
 
 # External object files for target UnitTests
 UnitTests_EXTERNAL_OBJECTS =
@@ -139,6 +169,8 @@ UnitTests: CMakeFiles/UnitTests.dir/tests/test_main.cpp.o
 UnitTests: CMakeFiles/UnitTests.dir/tests/test_command.cpp.o
 UnitTests: CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o
 UnitTests: CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o
+UnitTests: CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o
+UnitTests: CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o
 UnitTests: CMakeFiles/UnitTests.dir/build.make
 UnitTests: lib/libgtest_main.a
 UnitTests: lib/libgmock_main.a
@@ -153,7 +185,7 @@ UnitTests: lib/libgtest.a
 UnitTests: /usr/lib/x86_64-linux-gnu/libcurses.so
 UnitTests: /usr/lib/x86_64-linux-gnu/libform.so
 UnitTests: CMakeFiles/UnitTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable UnitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable UnitTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UnitTests.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/cmake -D TEST_TARGET=UnitTests -D TEST_EXECUTABLE=/home/wagnerkeller/projects/jackmeter/build/UnitTests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/wagnerkeller/projects/jackmeter/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=UnitTests_TESTS -D CTEST_FILE=/home/wagnerkeller/projects/jackmeter/build/UnitTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/local/share/cmake-3.29/Modules/GoogleTestAddTests.cmake
 

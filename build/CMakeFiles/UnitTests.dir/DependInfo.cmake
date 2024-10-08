@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/wagnerkeller/projects/jackmeter/tests/test_FFTProcessor.cpp" "CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o" "gcc" "CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o.d"
   "/home/wagnerkeller/projects/jackmeter/tests/test_command.cpp" "CMakeFiles/UnitTests.dir/tests/test_command.cpp.o" "gcc" "CMakeFiles/UnitTests.dir/tests/test_command.cpp.o.d"
+  "/home/wagnerkeller/projects/jackmeter/tests/test_discontinuity_processor.cpp" "CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o" "gcc" "CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o.d"
   "/home/wagnerkeller/projects/jackmeter/tests/test_jackclient.cpp" "CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o" "gcc" "CMakeFiles/UnitTests.dir/tests/test_jackclient.cpp.o.d"
   "/home/wagnerkeller/projects/jackmeter/tests/test_main.cpp" "CMakeFiles/UnitTests.dir/tests/test_main.cpp.o" "gcc" "CMakeFiles/UnitTests.dir/tests/test_main.cpp.o.d"
   "/home/wagnerkeller/projects/jackmeter/tests/test_simple_peak_processor.cpp" "CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o" "gcc" "CMakeFiles/UnitTests.dir/tests/test_simple_peak_processor.cpp.o.d"

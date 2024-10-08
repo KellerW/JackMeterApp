@@ -23,15 +23,14 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -56,8 +55,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -100,8 +99,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles/pkgRedirects
@@ -411,7 +410,10 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Dependencies for the target
-jackmeter_core_LIB_DEPENDS:STATIC=general;-L/usr/lib/x86_64-linux-gnu;general;-pthread;general;-lwx_gtk3u_core-3.2;general;-lwx_baseu-3.2;general;fmt::fmt;general;jack;general;sndfile;general;/usr/lib/x86_64-linux-gnu/libcurses.so;general;/usr/lib/x86_64-linux-gnu/libform.so;general;GSL::gsl;general;GSL::gslcblas;
+jackmeter_core_LIB_DEPENDS:STATIC=general;-L/usr/lib/x86_64-linux-gnu;general;-pthread;general;-lwx_gtk3u_core-3.2;general;-lwx_baseu-3.2;general;fmt::fmt;general;jack;general;sndfile;general;/usr/lib/x86_64-linux-gnu/libcurses.so;general;/usr/lib/x86_64-linux-gnu/libform.so;general;GSL::gsl;general;GSL::gslcblas;general;fftw3;general;fftw3;general;wavelib;general;wauxlib;
+
+//Path to a library.
+pkgcfg_lib_FFTW3_fftw3:FILEPATH=/usr/lib/x86_64-linux-gnu/libfftw3.so
 
 //Path to a library.
 pkgcfg_lib_GSL_gsl:FILEPATH=/usr/lib/x86_64-linux-gnu/libgsl.so
@@ -635,6 +637,41 @@ CURSES_FORM_LIBRARY-ADVANCED:INTERNAL=1
 CURSES_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURSES_NCURSES_LIBRARY
 CURSES_NCURSES_LIBRARY-ADVANCED:INTERNAL=1
+FFTW3_CFLAGS:INTERNAL=-I/usr/include
+FFTW3_CFLAGS_I:INTERNAL=
+FFTW3_CFLAGS_OTHER:INTERNAL=
+FFTW3_FOUND:INTERNAL=1
+FFTW3_INCLUDEDIR:INTERNAL=/usr/include
+FFTW3_INCLUDE_DIRS:INTERNAL=/usr/include
+FFTW3_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfftw3
+FFTW3_LDFLAGS_OTHER:INTERNAL=
+FFTW3_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+FFTW3_LIBRARIES:INTERNAL=fftw3
+FFTW3_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+FFTW3_LIBS:INTERNAL=
+FFTW3_LIBS_L:INTERNAL=
+FFTW3_LIBS_OTHER:INTERNAL=
+FFTW3_LIBS_PATHS:INTERNAL=
+FFTW3_MODULE_NAME:INTERNAL=fftw3
+FFTW3_PREFIX:INTERNAL=/usr
+FFTW3_STATIC_CFLAGS:INTERNAL=-I/usr/include
+FFTW3_STATIC_CFLAGS_I:INTERNAL=
+FFTW3_STATIC_CFLAGS_OTHER:INTERNAL=
+FFTW3_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include
+FFTW3_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfftw3;-lm
+FFTW3_STATIC_LDFLAGS_OTHER:INTERNAL=
+FFTW3_STATIC_LIBDIR:INTERNAL=
+FFTW3_STATIC_LIBRARIES:INTERNAL=fftw3;m
+FFTW3_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+FFTW3_STATIC_LIBS:INTERNAL=
+FFTW3_STATIC_LIBS_L:INTERNAL=
+FFTW3_STATIC_LIBS_OTHER:INTERNAL=
+FFTW3_STATIC_LIBS_PATHS:INTERNAL=
+FFTW3_VERSION:INTERNAL=3.3.10
+FFTW3_fftw3_INCLUDEDIR:INTERNAL=
+FFTW3_fftw3_LIBDIR:INTERNAL=
+FFTW3_fftw3_PREFIX:INTERNAL=
+FFTW3_fftw3_VERSION:INTERNAL=
 //Details about finding Curses
 FIND_PACKAGE_MESSAGE_DETAILS_Curses:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurses.so][/usr/include][v()]
 //Details about finding GSL
@@ -822,10 +859,12 @@ _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-x86_64-
 _Python_INTERPRETER_SIGNATURE:INTERNAL=f811b8a062a8994e96ffe87747bf9bfe
 //NumPy reason failure
 _Python_NumPy_REASON_FAILURE:INTERNAL=
+__pkg_config_arguments_FFTW3:INTERNAL=REQUIRED;fftw3
 __pkg_config_arguments_GSL:INTERNAL=QUIET;gsl
 __pkg_config_arguments_JACK:INTERNAL=REQUIRED;jack
 __pkg_config_arguments_NCURSES:INTERNAL=QUIET;ncurses
 __pkg_config_arguments_SNDFILE:INTERNAL=REQUIRED;sndfile
+__pkg_config_checked_FFTW3:INTERNAL=1
 __pkg_config_checked_GSL:INTERNAL=1
 __pkg_config_checked_JACK:INTERNAL=1
 __pkg_config_checked_NCURSES:INTERNAL=1
@@ -844,6 +883,8 @@ gtest_disable_pthreads-ADVANCED:INTERNAL=1
 gtest_force_shared_crt-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_hide_internal_symbols
 gtest_hide_internal_symbols-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_FFTW3_fftw3
+pkgcfg_lib_FFTW3_fftw3-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_GSL_gsl
 pkgcfg_lib_GSL_gsl-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_GSL_gslcblas

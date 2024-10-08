@@ -1,7 +1,7 @@
 CMakeFiles/UnitTests.dir/tests/test_command.cpp.o: \
  /home/wagnerkeller/projects/jackmeter/tests/test_command.cpp \
  /usr/include/stdc-predef.h \
- /home/wagnerkeller/projects/jackmeter/include/CommandInvoker.h \
+ /home/wagnerkeller/projects/jackmeter/include/CommandInvoker.hpp \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -190,13 +190,19 @@ CMakeFiles/UnitTests.dir/tests/test_command.cpp.o: \
  /usr/include/c++/13/bits/locale_classes.tcc \
  /usr/include/c++/13/bits/streambuf.tcc \
  /home/wagnerkeller/projects/jackmeter/include/JackClient.hpp \
+ /home/wagnerkeller/projects/jackmeter/include/DiscontinuityDetector.hpp \
  /home/wagnerkeller/projects/jackmeter/include/IProcessor.hpp \
- /home/wagnerkeller/projects/jackmeter/include/SimplePeakProcessor.hpp \
- /usr/include/c++/13/atomic /usr/include/c++/13/mutex \
+ /home/wagnerkeller/projects/wavelib/bin/include/wavelib.h \
+ /home/wagnerkeller/projects/wavelib/bin/include/wauxlib.h \
+ /home/wagnerkeller/projects/wavelib/bin/include/wavelib.h \
+ /home/wagnerkeller/projects/jackmeter/include/FFTProcessor.hpp \
+ /usr/include/fftw3.h /usr/include/c++/13/mutex \
  /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
  /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/chrono \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/wagnerkeller/projects/jackmeter/include/SimplePeakProcessor.hpp \
+ /usr/include/c++/13/atomic /usr/include/c++/13/chrono \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \

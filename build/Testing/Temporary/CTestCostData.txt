@@ -1,16 +1,20 @@
-CommandInvokerTest.ExecuteCommands 24 0.000179966
-FrequencyCommandTest.FrequencyChange 24 0.000192968
-DurationCommandTest.DurationChange 24 0.000198032
-StartJackClientCommandTest.ActivatesClient 0 0
-SimplePeakProcessorTest.ProcessSignalAboveThreshold 18 0.000287151
-SimplePeakProcessorTest.ProcessSignalBelowThreshold 22 0.000212724
-SimplePeakProcessorTest.PeakHoldFeature 0 0
-SimplePeakProcessorTest.CurrentPPMDbConversion 22 0.000181883
-SimplePeakProcessorTest.MinMaxPeakValues 5 0
-JackClientTest.InitializeClient 19 0.00213048
-JackClientTest.ActivateClient 19 0.00444221
-JackClientTest.PlayWavFile 19 0.00221693
-JackClientTest.ConnectPorts 19 0.002201
+CommandInvokerTest.ExecuteCommands 9 0.000848963
+FrequencyCommandTest.FrequencyChange 9 0.000729799
+DurationCommandTest.DurationChange 9 0.000695001
+SimplePeakProcessorTest.SignalDetection 9 0.000682774
+SimplePeakProcessorTest.MaxPeakDbValues 9 0.00055684
+SimplePeakProcessorTest.MinPeakDbValues 9 0.0005915
+JackClientTest.InitializeClient 9 0.0063746
+JackClientTest.ActivateClient 9 0.00952698
+JackClientTest.PlayWavFile 9 0.00461349
+JackClientTest.ConnectPorts 9 0.00477106
+FFTProcessorTest.ConstructorInitializesCorrectly 9 0.000865938
+FFTProcessorTest.ProcessSinusoidalSignal 9 0.000895395
+FFTProcessorTest.ProcessZeroSignal 9 0.000917763
+FFTProcessorTest.GetName 9 0.000883406
+FFTProcessorTest.ProcessRandomSignal 9 0.000508912
+DiscontinuityProcessorTest.GetNameTest 9 0.000484799
+DiscontinuityProcessorTest.NoDiscontinuityTest 7 0.000769096
+DiscontinuityProcessorTest.DiscontinuityDetectedTest 7 0.00105933
+DiscontinuityProcessorTest.SignalLengthMismatchTest 8 0.000799431
 ---
-SimplePeakProcessorTest.PeakHoldFeature
-SimplePeakProcessorTest.MinMaxPeakValues

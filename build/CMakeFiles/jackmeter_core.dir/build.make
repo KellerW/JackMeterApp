@@ -73,107 +73,187 @@ CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o: CMakeFiles/jackmeter_core.dir/
 CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o: /home/wagnerkeller/projects/jackmeter/src/Commands.cpp
 CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/Commands.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/Commands.cpp
 
 CMakeFiles/jackmeter_core.dir/src/Commands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/Commands.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/Commands.cpp > CMakeFiles/jackmeter_core.dir/src/Commands.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/Commands.cpp > CMakeFiles/jackmeter_core.dir/src/Commands.cpp.i
 
 CMakeFiles/jackmeter_core.dir/src/Commands.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/Commands.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/Commands.cpp -o CMakeFiles/jackmeter_core.dir/src/Commands.cpp.s
-
-CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
-CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o: /home/wagnerkeller/projects/jackmeter/src/JackMeter.cpp
-CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/JackMeter.cpp
-
-CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/JackMeter.cpp > CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.i
-
-CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/JackMeter.cpp -o CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/Commands.cpp -o CMakeFiles/jackmeter_core.dir/src/Commands.cpp.s
 
 CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
 CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o: /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp
 CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp
 
 CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp > CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp > CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.i
 
 CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp -o CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp -o CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.s
 
 CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
 CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o: /home/wagnerkeller/projects/jackmeter/src/JackClient.cpp
 CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/JackClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/JackClient.cpp
 
 CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/JackClient.cpp > CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/JackClient.cpp > CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.i
 
 CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/JackClient.cpp -o CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/JackClient.cpp -o CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.s
 
 CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
 CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o: /home/wagnerkeller/projects/jackmeter/src/SimplePeakProcessor.cpp
 CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/SimplePeakProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/SimplePeakProcessor.cpp
 
 CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/SimplePeakProcessor.cpp > CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/SimplePeakProcessor.cpp > CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.i
 
 CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/SimplePeakProcessor.cpp -o CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/SimplePeakProcessor.cpp -o CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.s
 
 CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
 CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o: /home/wagnerkeller/projects/jackmeter/src/DiscontinuityDetector.cpp
 CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/DiscontinuityDetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/DiscontinuityDetector.cpp
 
 CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/DiscontinuityDetector.cpp > CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/DiscontinuityDetector.cpp > CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.i
 
 CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/DiscontinuityDetector.cpp -o CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/DiscontinuityDetector.cpp -o CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.s
+
+CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
+CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o: /home/wagnerkeller/projects/jackmeter/src/GnuplotHandler.cpp
+CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/GnuplotHandler.cpp
+
+CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/GnuplotHandler.cpp > CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.i
+
+CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/GnuplotHandler.cpp -o CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.s
+
+CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
+CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o: /home/wagnerkeller/projects/jackmeter/src/NcursesHandler.cpp
+CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/NcursesHandler.cpp
+
+CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/NcursesHandler.cpp > CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.i
+
+CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/NcursesHandler.cpp -o CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.s
+
+CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
+CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o: /home/wagnerkeller/projects/jackmeter/src/FFTProcessor.cpp
+CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/FFTProcessor.cpp
+
+CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/FFTProcessor.cpp > CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.i
+
+CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/FFTProcessor.cpp -o CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.s
+
+CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
+CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o: /home/wagnerkeller/projects/jackmeter/src/SignalHandler.cpp
+CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/SignalHandler.cpp
+
+CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/SignalHandler.cpp > CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.i
+
+CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/SignalHandler.cpp -o CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.s
+
+CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
+CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o: /home/wagnerkeller/projects/jackmeter/src/Utils.cpp
+CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/Utils.cpp
+
+CMakeFiles/jackmeter_core.dir/src/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/Utils.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/Utils.cpp > CMakeFiles/jackmeter_core.dir/src/Utils.cpp.i
+
+CMakeFiles/jackmeter_core.dir/src/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/Utils.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/Utils.cpp -o CMakeFiles/jackmeter_core.dir/src/Utils.cpp.s
+
+CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o: CMakeFiles/jackmeter_core.dir/flags.make
+CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o: /home/wagnerkeller/projects/jackmeter/src/AppContext.cpp
+CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o: CMakeFiles/jackmeter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o -MF CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o.d -o CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o -c /home/wagnerkeller/projects/jackmeter/src/AppContext.cpp
+
+CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wagnerkeller/projects/jackmeter/src/AppContext.cpp > CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.i
+
+CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wagnerkeller/projects/jackmeter/src/AppContext.cpp -o CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.s
 
 # Object files for target jackmeter_core
 jackmeter_core_OBJECTS = \
 "CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o" \
-"CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o" \
 "CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o" \
 "CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o" \
 "CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o" \
-"CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o"
+"CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o" \
+"CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o" \
+"CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o" \
+"CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o" \
+"CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o" \
+"CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o" \
+"CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o"
 
 # External object files for target jackmeter_core
 jackmeter_core_EXTERNAL_OBJECTS =
 
 libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/Commands.cpp.o
-libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o
 libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o
 libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.o
 libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.o
 libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.o
+libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o
+libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o
+libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o
+libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o
+libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o
+libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o
 libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/build.make
 libjackmeter_core.a: CMakeFiles/jackmeter_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libjackmeter_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wagnerkeller/projects/jackmeter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libjackmeter_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/jackmeter_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jackmeter_core.dir/link.txt --verbose=$(VERBOSE)
 

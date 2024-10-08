@@ -1,2 +1,3 @@
-6:SimplePeakProcessorTest.PeakHoldFeature
-8:SimplePeakProcessorTest.MinMaxPeakValues
+17:DiscontinuityProcessorTest.NoDiscontinuityTest
+18:DiscontinuityProcessorTest.DiscontinuityDetectedTest
+19:DiscontinuityProcessorTest.SignalLengthMismatchTest

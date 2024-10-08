@@ -1,7 +1,7 @@
 CMakeFiles/jackmeter_core.dir/src/CommandInvoker.cpp.o: \
  /home/wagnerkeller/projects/jackmeter/src/CommandInvoker.cpp \
  /usr/include/stdc-predef.h \
- /home/wagnerkeller/projects/jackmeter/include/CommandInvoker.h \
+ /home/wagnerkeller/projects/jackmeter/include/CommandInvoker.hpp \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

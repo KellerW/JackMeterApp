@@ -286,6 +286,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeter.dir/build.make CMakeFiles/JackMeter.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/AppContext.o: src/AppContext.cpp.o
+.PHONY : src/AppContext.o
+
+# target to build an object file
+src/AppContext.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.o
+.PHONY : src/AppContext.cpp.o
+
+src/AppContext.i: src/AppContext.cpp.i
+.PHONY : src/AppContext.i
+
+# target to preprocess a source file
+src/AppContext.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.i
+.PHONY : src/AppContext.cpp.i
+
+src/AppContext.s: src/AppContext.cpp.s
+.PHONY : src/AppContext.s
+
+# target to generate assembly for a file
+src/AppContext.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/AppContext.cpp.s
+.PHONY : src/AppContext.cpp.s
+
 src/CommandInvoker.o: src/CommandInvoker.cpp.o
 .PHONY : src/CommandInvoker.o
 
@@ -358,6 +382,54 @@ src/DiscontinuityDetector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/DiscontinuityDetector.cpp.s
 .PHONY : src/DiscontinuityDetector.cpp.s
 
+src/FFTProcessor.o: src/FFTProcessor.cpp.o
+.PHONY : src/FFTProcessor.o
+
+# target to build an object file
+src/FFTProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.o
+.PHONY : src/FFTProcessor.cpp.o
+
+src/FFTProcessor.i: src/FFTProcessor.cpp.i
+.PHONY : src/FFTProcessor.i
+
+# target to preprocess a source file
+src/FFTProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.i
+.PHONY : src/FFTProcessor.cpp.i
+
+src/FFTProcessor.s: src/FFTProcessor.cpp.s
+.PHONY : src/FFTProcessor.s
+
+# target to generate assembly for a file
+src/FFTProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/FFTProcessor.cpp.s
+.PHONY : src/FFTProcessor.cpp.s
+
+src/GnuplotHandler.o: src/GnuplotHandler.cpp.o
+.PHONY : src/GnuplotHandler.o
+
+# target to build an object file
+src/GnuplotHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.o
+.PHONY : src/GnuplotHandler.cpp.o
+
+src/GnuplotHandler.i: src/GnuplotHandler.cpp.i
+.PHONY : src/GnuplotHandler.i
+
+# target to preprocess a source file
+src/GnuplotHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.i
+.PHONY : src/GnuplotHandler.cpp.i
+
+src/GnuplotHandler.s: src/GnuplotHandler.cpp.s
+.PHONY : src/GnuplotHandler.s
+
+# target to generate assembly for a file
+src/GnuplotHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/GnuplotHandler.cpp.s
+.PHONY : src/GnuplotHandler.cpp.s
+
 src/JackClient.o: src/JackClient.cpp.o
 .PHONY : src/JackClient.o
 
@@ -382,29 +454,53 @@ src/JackClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.s
 .PHONY : src/JackClient.cpp.s
 
-src/JackMeter.o: src/JackMeter.cpp.o
-.PHONY : src/JackMeter.o
+src/NcursesHandler.o: src/NcursesHandler.cpp.o
+.PHONY : src/NcursesHandler.o
 
 # target to build an object file
-src/JackMeter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.o
-.PHONY : src/JackMeter.cpp.o
+src/NcursesHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.o
+.PHONY : src/NcursesHandler.cpp.o
 
-src/JackMeter.i: src/JackMeter.cpp.i
-.PHONY : src/JackMeter.i
+src/NcursesHandler.i: src/NcursesHandler.cpp.i
+.PHONY : src/NcursesHandler.i
 
 # target to preprocess a source file
-src/JackMeter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.i
-.PHONY : src/JackMeter.cpp.i
+src/NcursesHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.i
+.PHONY : src/NcursesHandler.cpp.i
 
-src/JackMeter.s: src/JackMeter.cpp.s
-.PHONY : src/JackMeter.s
+src/NcursesHandler.s: src/NcursesHandler.cpp.s
+.PHONY : src/NcursesHandler.s
 
 # target to generate assembly for a file
-src/JackMeter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/JackMeter.cpp.s
-.PHONY : src/JackMeter.cpp.s
+src/NcursesHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/NcursesHandler.cpp.s
+.PHONY : src/NcursesHandler.cpp.s
+
+src/SignalHandler.o: src/SignalHandler.cpp.o
+.PHONY : src/SignalHandler.o
+
+# target to build an object file
+src/SignalHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.o
+.PHONY : src/SignalHandler.cpp.o
+
+src/SignalHandler.i: src/SignalHandler.cpp.i
+.PHONY : src/SignalHandler.i
+
+# target to preprocess a source file
+src/SignalHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.i
+.PHONY : src/SignalHandler.cpp.i
+
+src/SignalHandler.s: src/SignalHandler.cpp.s
+.PHONY : src/SignalHandler.s
+
+# target to generate assembly for a file
+src/SignalHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/SignalHandler.cpp.s
+.PHONY : src/SignalHandler.cpp.s
 
 src/SimplePeakProcessor.o: src/SimplePeakProcessor.cpp.o
 .PHONY : src/SimplePeakProcessor.o
@@ -430,6 +526,54 @@ src/SimplePeakProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/SimplePeakProcessor.cpp.s
 .PHONY : src/SimplePeakProcessor.cpp.s
 
+src/Utils.o: src/Utils.cpp.o
+.PHONY : src/Utils.o
+
+# target to build an object file
+src/Utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/Utils.cpp.o
+.PHONY : src/Utils.cpp.o
+
+src/Utils.i: src/Utils.cpp.i
+.PHONY : src/Utils.i
+
+# target to preprocess a source file
+src/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/Utils.cpp.i
+.PHONY : src/Utils.cpp.i
+
+src/Utils.s: src/Utils.cpp.s
+.PHONY : src/Utils.s
+
+# target to generate assembly for a file
+src/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/Utils.cpp.s
+.PHONY : src/Utils.cpp.s
+
+tests/test_FFTProcessor.o: tests/test_FFTProcessor.cpp.o
+.PHONY : tests/test_FFTProcessor.o
+
+# target to build an object file
+tests/test_FFTProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.o
+.PHONY : tests/test_FFTProcessor.cpp.o
+
+tests/test_FFTProcessor.i: tests/test_FFTProcessor.cpp.i
+.PHONY : tests/test_FFTProcessor.i
+
+# target to preprocess a source file
+tests/test_FFTProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.i
+.PHONY : tests/test_FFTProcessor.cpp.i
+
+tests/test_FFTProcessor.s: tests/test_FFTProcessor.cpp.s
+.PHONY : tests/test_FFTProcessor.s
+
+# target to generate assembly for a file
+tests/test_FFTProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/tests/test_FFTProcessor.cpp.s
+.PHONY : tests/test_FFTProcessor.cpp.s
+
 tests/test_command.o: tests/test_command.cpp.o
 .PHONY : tests/test_command.o
 
@@ -453,6 +597,30 @@ tests/test_command.s: tests/test_command.cpp.s
 tests/test_command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/tests/test_command.cpp.s
 .PHONY : tests/test_command.cpp.s
+
+tests/test_discontinuity_processor.o: tests/test_discontinuity_processor.cpp.o
+.PHONY : tests/test_discontinuity_processor.o
+
+# target to build an object file
+tests/test_discontinuity_processor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.o
+.PHONY : tests/test_discontinuity_processor.cpp.o
+
+tests/test_discontinuity_processor.i: tests/test_discontinuity_processor.cpp.i
+.PHONY : tests/test_discontinuity_processor.i
+
+# target to preprocess a source file
+tests/test_discontinuity_processor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.i
+.PHONY : tests/test_discontinuity_processor.cpp.i
+
+tests/test_discontinuity_processor.s: tests/test_discontinuity_processor.cpp.s
+.PHONY : tests/test_discontinuity_processor.s
+
+# target to generate assembly for a file
+tests/test_discontinuity_processor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitTests.dir/build.make CMakeFiles/UnitTests.dir/tests/test_discontinuity_processor.cpp.s
+.PHONY : tests/test_discontinuity_processor.cpp.s
 
 tests/test_jackclient.o: tests/test_jackclient.cpp.o
 .PHONY : tests/test_jackclient.o
@@ -549,6 +717,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/AppContext.o"
+	@echo "... src/AppContext.i"
+	@echo "... src/AppContext.s"
 	@echo "... src/CommandInvoker.o"
 	@echo "... src/CommandInvoker.i"
 	@echo "... src/CommandInvoker.s"
@@ -558,18 +729,36 @@ help:
 	@echo "... src/DiscontinuityDetector.o"
 	@echo "... src/DiscontinuityDetector.i"
 	@echo "... src/DiscontinuityDetector.s"
+	@echo "... src/FFTProcessor.o"
+	@echo "... src/FFTProcessor.i"
+	@echo "... src/FFTProcessor.s"
+	@echo "... src/GnuplotHandler.o"
+	@echo "... src/GnuplotHandler.i"
+	@echo "... src/GnuplotHandler.s"
 	@echo "... src/JackClient.o"
 	@echo "... src/JackClient.i"
 	@echo "... src/JackClient.s"
-	@echo "... src/JackMeter.o"
-	@echo "... src/JackMeter.i"
-	@echo "... src/JackMeter.s"
+	@echo "... src/NcursesHandler.o"
+	@echo "... src/NcursesHandler.i"
+	@echo "... src/NcursesHandler.s"
+	@echo "... src/SignalHandler.o"
+	@echo "... src/SignalHandler.i"
+	@echo "... src/SignalHandler.s"
 	@echo "... src/SimplePeakProcessor.o"
 	@echo "... src/SimplePeakProcessor.i"
 	@echo "... src/SimplePeakProcessor.s"
+	@echo "... src/Utils.o"
+	@echo "... src/Utils.i"
+	@echo "... src/Utils.s"
+	@echo "... tests/test_FFTProcessor.o"
+	@echo "... tests/test_FFTProcessor.i"
+	@echo "... tests/test_FFTProcessor.s"
 	@echo "... tests/test_command.o"
 	@echo "... tests/test_command.i"
 	@echo "... tests/test_command.s"
+	@echo "... tests/test_discontinuity_processor.o"
+	@echo "... tests/test_discontinuity_processor.i"
+	@echo "... tests/test_discontinuity_processor.s"
 	@echo "... tests/test_jackclient.o"
 	@echo "... tests/test_jackclient.i"
 	@echo "... tests/test_jackclient.s"
