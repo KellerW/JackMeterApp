@@ -86,8 +86,7 @@ void jackmeter::commands::NoMatchingCommand::execute()
 
 // LoadWaveFile Command
 jackmeter::commands::LoadWaveFile::LoadWaveFile(const char *optarg, Config &config)
-    : optarg(optarg), config(config)
-{
+    : config(config), optarg(optarg) {  // Correct order
 }
 
 void jackmeter::commands::LoadWaveFile::execute()
@@ -95,3 +94,15 @@ void jackmeter::commands::LoadWaveFile::execute()
     config.wav_file = std::string(optarg); // Store WAV file path in config
     fmt::print("WAV file '{}' has been loaded and saved to config.\n", config.wav_file);
 }
+
+jackmeter::commands::PrintPPM::PrintPPM(Config &config) : config(config) {}
+
+void jackmeter::commands::PrintPPM::execute() { config.print_ppm = true; }
+
+jackmeter::commands::PrintFFT::PrintFFT(Config &config) : config(config) {}
+
+void jackmeter::commands::PrintFFT::execute() { config.print_fft = true; }
+
+jackmeter::commands::PrintDT::PrintDT(Config &config) : config(config) {}
+
+void jackmeter::commands::PrintDT::execute() { config.print_dt = true; }

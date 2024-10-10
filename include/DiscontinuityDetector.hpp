@@ -1,20 +1,38 @@
 #pragma once
 
-#include <vector>
 #include "IProcessor.hpp"
+#include "wavelib.h"
+#include "wauxlib.h"
+#include <vector>
+#include <string>
+#include <cmath>
 
-namespace jackmeter {
-
-class DiscontinuityDetector : public IProcessor {
+namespace jackmeter
+{
+class DiscontinuityProcessor : public jackmeter::IProcessor {
 public:
-    DiscontinuityDetector(float threshold = 0.5f);  // Constructor with a default energy threshold
-    virtual void Process(float* samples, uint32_t nSamples) final;  // Override the Process method
-    virtual ~DiscontinuityDetector();  // Destructor
+    DiscontinuityProcessor(int signal_length);
+    virtual ~DiscontinuityProcessor();
+
+    void Process(float* samples, uint32_t nSamples) override;
+    std::string_view GetName() const override;
+    bool SignalDetected() const override;
+
+    // Method to return pre-computed discontinuities
+    std::vector<int> getDiscontinuityIndices() const;
 
 private:
-    bool detectEnergy(const float* samples, uint32_t nSamples);  // Method to detect discontinuity based on energy
-    float computeEnergy(const float* samples, uint32_t nSamples);  // Method to compute energy of a signal frame
-    float threshold;  // Threshold for energy difference
+    std::string name = "DiscontinuityProcessor";
+    uint32_t signal_length;
+    bool discontinuity_detected = false;
+
+    // Vector to store detected discontinuity indices
+    std::vector<int> discontinuityIndices;  // Add this declaration
+
+    // Wavelet transformation objects
+    wave_object wave;
+    wt_object wt;
+    std::vector<double> wavelet_output;
 };
 
-}  // namespace jackmeter
+} // namespace jackmeter

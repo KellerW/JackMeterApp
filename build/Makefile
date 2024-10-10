@@ -185,17 +185,30 @@ jackmeter_core/fast:
 .PHONY : jackmeter_core/fast
 
 #=============================================================================
-# Target rules for targets named JackMeter
+# Target rules for targets named JackMeterCLI
 
 # Build rule for target.
-JackMeter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 JackMeter
-.PHONY : JackMeter
+JackMeterCLI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 JackMeterCLI
+.PHONY : JackMeterCLI
 
 # fast build rule for target.
-JackMeter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeter.dir/build.make CMakeFiles/JackMeter.dir/build
-.PHONY : JackMeter/fast
+JackMeterCLI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterCLI.dir/build.make CMakeFiles/JackMeterCLI.dir/build
+.PHONY : JackMeterCLI/fast
+
+#=============================================================================
+# Target rules for targets named JackMeterGUI
+
+# Build rule for target.
+JackMeterGUI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 JackMeterGUI
+.PHONY : JackMeterGUI
+
+# fast build rule for target.
+JackMeterGUI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterGUI.dir/build.make CMakeFiles/JackMeterGUI.dir/build
+.PHONY : JackMeterGUI/fast
 
 #=============================================================================
 # Target rules for targets named UnitTests
@@ -267,7 +280,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeter.dir/build.make CMakeFiles/JackMeter.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterCLI.dir/build.make CMakeFiles/JackMeterCLI.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -275,7 +288,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeter.dir/build.make CMakeFiles/JackMeter.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterCLI.dir/build.make CMakeFiles/JackMeterCLI.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -283,7 +296,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeter.dir/build.make CMakeFiles/JackMeter.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterCLI.dir/build.make CMakeFiles/JackMeterCLI.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/AppContext.o: src/AppContext.cpp.o
@@ -453,6 +466,54 @@ src/JackClient.s: src/JackClient.cpp.s
 src/JackClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jackmeter_core.dir/build.make CMakeFiles/jackmeter_core.dir/src/JackClient.cpp.s
 .PHONY : src/JackClient.cpp.s
+
+src/MyApp.o: src/MyApp.cpp.o
+.PHONY : src/MyApp.o
+
+# target to build an object file
+src/MyApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterGUI.dir/build.make CMakeFiles/JackMeterGUI.dir/src/MyApp.cpp.o
+.PHONY : src/MyApp.cpp.o
+
+src/MyApp.i: src/MyApp.cpp.i
+.PHONY : src/MyApp.i
+
+# target to preprocess a source file
+src/MyApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterGUI.dir/build.make CMakeFiles/JackMeterGUI.dir/src/MyApp.cpp.i
+.PHONY : src/MyApp.cpp.i
+
+src/MyApp.s: src/MyApp.cpp.s
+.PHONY : src/MyApp.s
+
+# target to generate assembly for a file
+src/MyApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterGUI.dir/build.make CMakeFiles/JackMeterGUI.dir/src/MyApp.cpp.s
+.PHONY : src/MyApp.cpp.s
+
+src/MyFrame.o: src/MyFrame.cpp.o
+.PHONY : src/MyFrame.o
+
+# target to build an object file
+src/MyFrame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterGUI.dir/build.make CMakeFiles/JackMeterGUI.dir/src/MyFrame.cpp.o
+.PHONY : src/MyFrame.cpp.o
+
+src/MyFrame.i: src/MyFrame.cpp.i
+.PHONY : src/MyFrame.i
+
+# target to preprocess a source file
+src/MyFrame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterGUI.dir/build.make CMakeFiles/JackMeterGUI.dir/src/MyFrame.cpp.i
+.PHONY : src/MyFrame.cpp.i
+
+src/MyFrame.s: src/MyFrame.cpp.s
+.PHONY : src/MyFrame.s
+
+# target to generate assembly for a file
+src/MyFrame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JackMeterGUI.dir/build.make CMakeFiles/JackMeterGUI.dir/src/MyFrame.cpp.s
+.PHONY : src/MyFrame.cpp.s
 
 src/NcursesHandler.o: src/NcursesHandler.cpp.o
 .PHONY : src/NcursesHandler.o
@@ -707,7 +768,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... JackMeter"
+	@echo "... JackMeterCLI"
+	@echo "... JackMeterGUI"
 	@echo "... UnitTests"
 	@echo "... gmock"
 	@echo "... gmock_main"
@@ -738,6 +800,12 @@ help:
 	@echo "... src/JackClient.o"
 	@echo "... src/JackClient.i"
 	@echo "... src/JackClient.s"
+	@echo "... src/MyApp.o"
+	@echo "... src/MyApp.i"
+	@echo "... src/MyApp.s"
+	@echo "... src/MyFrame.o"
+	@echo "... src/MyFrame.i"
+	@echo "... src/MyFrame.s"
 	@echo "... src/NcursesHandler.o"
 	@echo "... src/NcursesHandler.i"
 	@echo "... src/NcursesHandler.s"

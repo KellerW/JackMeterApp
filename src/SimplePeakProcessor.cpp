@@ -5,111 +5,119 @@
 #include <string>
 #include <chrono>
 #include <mutex>
+#include <fmt/core.h>
+#include <fmt/ostream.h>
 
 namespace jackmeter {
 
 SimplePeakProcessor::SimplePeakProcessor(std::string_view name, float threshold)
     : m_name(name), m_latestPeak(0.0f), 
-      m_minPeak(std::numeric_limits<float>::infinity()),  
-      m_maxPeak(-std::numeric_limits<float>::infinity()), 
-      m_noiseThreshold(threshold), m_currentPPM(0.0f), m_peakHold(0.0f),
-      m_decayRate(0.05f), m_peakHoldTime(2.0f), m_lastTime(std::chrono::steady_clock::now())   
+      m_minPeak(std::numeric_limits<double>::infinity()),  
+      m_maxPeak(-std::numeric_limits<double>::infinity()), 
+      m_noiseThreshold(threshold), m_lastTime(std::chrono::steady_clock::now())   
 {
-    #ifdef DEBUG
-        fmt::print("SimplePeakProcessor created with threshold: {}\n", threshold); 
-    #endif
+    
 }
 
 void SimplePeakProcessor::Process(float* samples, uint32_t nSamples)
 {
-    float localMax = *std::max_element(samples, samples + nSamples);
+    double bufferMaxPeak = -std::numeric_limits<double>::infinity();
+    double bufferMinPeak = std::numeric_limits<double>::infinity();
 
-    m_latestPeak.store(localMax);
-    m_maxPeak.store(std::max(m_maxPeak.load(), localMax));
-    std::lock_guard<std::mutex> lock(m_mutex);
-
-    auto currentTime = std::chrono::steady_clock::now();
-    std::chrono::duration<float> elapsed = currentTime - m_lastTime;
-
-    if (localMax > m_currentPPM) 
+    
+    for (uint32_t i = 0; i < nSamples; i++) 
     {
-        m_currentPPM = localMax;
-        m_peakHold = localMax;
-        m_lastTime = currentTime;
-    } 
-    else if (elapsed.count() > m_peakHoldTime) 
-    {
-        // Decay the peak hold if the elapsed time is greater than the hold time
-        m_currentPPM -= m_decayRate * elapsed.count();
-        if (m_currentPPM < 0.0f) {
-            m_currentPPM = 0.0f;
+        if (samples[i] > bufferMaxPeak) 
+        {
+            bufferMaxPeak = samples[i];  
         }
-        m_lastTime = currentTime;
+        if (samples[i] < bufferMinPeak) 
+        {
+            bufferMinPeak = samples[i];  
+        }
     }
-
-    m_signalDetected.store(localMax >= m_noiseThreshold);
+   
+    
+    m_latestPeak.store(std::max(fabs(bufferMaxPeak), fabs(bufferMinPeak)));
+   
+    
+    if (bufferMaxPeak > m_maxPeak.load())
+    {
+        
+        m_maxPeak.store(bufferMaxPeak);
+        if (!m_signalDetected && (fabs(bufferMaxPeak) > m_noiseThreshold)) 
+        {
+            m_minPeak = bufferMinPeak;
+            m_signalDetected.store(true);
+        }
+    }
+        
+    if (bufferMinPeak < m_minPeak) 
+    {
+        m_minPeak= bufferMinPeak;
+    }
 }
-
 
 bool SimplePeakProcessor::SignalDetected() const
 {
     return m_signalDetected.load();
 }
 
-float SimplePeakProcessor::GetCurrentPPMDb() const
-{
-    std::lock_guard<std::mutex> lock(m_mutex);
-    return 20.0f * log10f(m_currentPPM);
-}
-
-float SimplePeakProcessor::GetPeakHoldDb() const
-{
-    std::lock_guard<std::mutex> lock(m_mutex);
-    return 20.0f * log10f(m_peakHold);
-}
-
-void SimplePeakProcessor::ResetPeakHold()
-{
-    std::lock_guard<std::mutex> lock(m_mutex);
-    m_peakHold = 0.0f;
-}
-
-float SimplePeakProcessor::GetLatestPeak() const
+double SimplePeakProcessor::GetLatestPeak() const
 { 
-    return m_latestPeak.load();
+    float latestPeak = m_latestPeak.load();
+    return latestPeak;
 }
 
-float SimplePeakProcessor::GetLatestPeakDb() const
+double SimplePeakProcessor::GetLatestPeakDb() const
 {
-    return 20.0f * log10f(m_latestPeak.load());
+    float dbValue = 20.0f * log10f(m_latestPeak.load());
+    return dbValue;
 }
 
-float SimplePeakProcessor::GetMinPeak() const
+double SimplePeakProcessor::GetMinPeak() const
 {
-    return m_minPeak.load();
+    double minPeak = m_minPeak;
+   
+    return minPeak;
+   
 }
 
-float SimplePeakProcessor::GetMinPeakDb() const
+double SimplePeakProcessor::GetMinPeakDb() const
 {
-    float minPeak = m_minPeak.load();  
-    if (minPeak == 0.0f) {
-        return -std::numeric_limits<float>::infinity();  
+    double dbValue = 0;
+    
+    if (this->m_minPeak == 0.0f) 
+    {
+       return -std::numeric_limits<float>::infinity();  
     }
-    return 20.0f * log10f(minPeak);  
+
+    if (this->m_minPeak < 0.0f) 
+    {
+        dbValue = 20.0f * log10f(fabs(this->m_minPeak));
+    }
+    else
+    {
+        dbValue = 20.0f * log10f(this->m_minPeak);
+    }
+    
+    return dbValue;
 }
 
-float SimplePeakProcessor::GetMaxPeak() const
+double SimplePeakProcessor::GetMaxPeak() const
 {
-    return m_maxPeak.load();
+    double maxPeak = m_maxPeak.load();
+    return maxPeak;
 }
 
-float SimplePeakProcessor::GetMaxPeakDb() const
+double SimplePeakProcessor::GetMaxPeakDb() const
 {
-    float maxPeak = m_maxPeak.load();
+    double maxPeak = m_maxPeak.load();
     if (maxPeak == 0.0f) {
-        return -std::numeric_limits<float>::infinity();
+        return -std::numeric_limits<double>::infinity();
     }
-    return 20.0f * log10f(maxPeak);
+    double dbValue = 20.0f * log10f(maxPeak);
+    return dbValue;
 }
 
 std::string_view SimplePeakProcessor::GetName() const

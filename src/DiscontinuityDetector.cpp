@@ -1,59 +1,76 @@
 #include "DiscontinuityDetector.hpp"
-#include <cmath>
-#include <fmt/core.h>
-#include <vector>
-#include <algorithm>  // For std::min
+#include <iostream>
 
-namespace jackmeter {
+namespace jackmeter
+{
+DiscontinuityProcessor::DiscontinuityProcessor(int signal_length)
+    : signal_length(signal_length), discontinuity_detected(false) {
+    // Initialize the Daubechies wavelet (order 4)
+    wave = wave_init("db4");
 
-DiscontinuityDetector::DiscontinuityDetector(float threshold) : threshold(threshold) {}
+    // Initialize the wavelet transform (1 level of decomposition for simplicity)
+    wt = wt_init(wave, "dwt", signal_length, 1);
 
-DiscontinuityDetector::~DiscontinuityDetector() {
-    // No special resource cleanup needed for energy-based detection
+    // Initialize the wavelet output buffer
+    wavelet_output.resize(signal_length);
 }
 
-void DiscontinuityDetector::Process(float* samples, uint32_t nSamples) {
-    fmt::print("Processing {} samples for energy-based discontinuity detection.\n", nSamples);
+DiscontinuityProcessor::~DiscontinuityProcessor() 
+{
+    wave_free(wave);
+    wt_free(wt);
+}
 
-    if (detectEnergy(samples, nSamples)) {
-        fmt::print("Discontinuity detected in signal.\n");
-    } else {
-        fmt::print("No discontinuity detected in signal.\n");
+void DiscontinuityProcessor::Process(float* samples, uint32_t nSamples) {
+    // Clear previous results
+    discontinuityIndices.clear();  // Clear the discontinuity indices
+
+    if (nSamples != signal_length) {
+        std::cerr << "Error: signal length does not match processor initialization. Expected: "
+                  << signal_length << ", Got: " << nSamples << std::endl;
+        return;
     }
-}
 
-bool DiscontinuityDetector::detectEnergy(const float* samples, uint32_t nSamples) {
-    // Choose a smaller frame size to ensure enough frames for detection
-    const uint32_t frameSize = 256;  // Reduced frame size for smaller signals
-    float prevEnergy = computeEnergy(samples, std::min(frameSize, nSamples));
+    // Convert input samples to double precision
+    std::vector<double> samples_double(samples, samples + nSamples);
+   
+    // Perform the wavelet transform
+    dwt(wt, samples_double.data());
 
-    // Iterate through the signal in frames
-    for (uint32_t i = frameSize; i < nSamples; i += frameSize) {
-        uint32_t currentFrameSize = std::min(frameSize, nSamples - i);
-        float currEnergy = computeEnergy(&samples[i], currentFrameSize);
+    // Analyze the wavelet coefficients for discontinuities
+    discontinuity_detected = false;
 
-        // Compute the difference between consecutive frames
-        float energyDiff = std::abs(currEnergy - prevEnergy);
-
-        fmt::print("Frame [{}-{}]: Prev Energy = {}, Curr Energy = {}, Diff = {}\n", i - frameSize, i, prevEnergy, currEnergy, energyDiff);
-
-        // If the difference exceeds the threshold, it's a discontinuity
-        if (energyDiff > threshold) {
-            fmt::print("Discontinuity detected between frames {} and {} (Energy diff = {})\n", i - frameSize, i, energyDiff);
-            return true;
+    for (int i = 1; i < wt->outlength; ++i) {
+        if (std::abs(wt->output[i] - wt->output[i - 1]) > 2) {  // Threshold for detection
+            discontinuity_detected = true;
+            discontinuityIndices.push_back(i); // Store the detected index
         }
-
-        prevEnergy = currEnergy;  // Update the previous energy for the next comparison
     }
-    return false;
+
+    // Fix the comparison by casting wt->outlength to std::size_t
+    if (wavelet_output.size() != static_cast<std::size_t>(wt->outlength)) {
+        wavelet_output.resize(wt->outlength);  // Resize to match the output length
+    }
+
+    // Copy the wavelet output for further analysis if needed
+    for (int i = 0; i < wt->outlength; ++i) {
+        wavelet_output[i] = wt->output[i];
+    }
 }
 
-float DiscontinuityDetector::computeEnergy(const float* samples, uint32_t nSamples) {
-    float energy = 0.0f;
-    for (uint32_t i = 0; i < nSamples; ++i) {
-        energy += samples[i] * samples[i];  // Sum of squared amplitudes
-    }
-    return energy / nSamples;  // Return average energy for normalization
+
+
+std::string_view DiscontinuityProcessor::GetName() const {
+    return name;
 }
 
-}  // namespace jackmeter
+bool DiscontinuityProcessor::SignalDetected() const {
+    return discontinuity_detected;
+}
+
+// Return the detected discontinuities
+std::vector<int> DiscontinuityProcessor::getDiscontinuityIndices() const {
+    return discontinuityIndices;  // Return the discontinuity indices
+}
+
+} // namespace jackmeter

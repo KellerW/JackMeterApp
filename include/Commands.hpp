@@ -13,7 +13,7 @@ constexpr char Usage[] = "Usage: jackmeter [-h] [-c] [-p] [-x] [-f <freq>] [-d <
 class Command
 {
   public:
-    virtual ~Command() = default; 
+    virtual ~Command()     = default;
     virtual void execute() = 0;
 };
 
@@ -110,6 +110,36 @@ class HelpCommand : public Command
 {
   public:
     HelpCommand() = default;
+    void execute() override;
+};
+
+class PrintPPM : public Command
+{
+  private:
+    Config &config;
+
+  public:
+    PrintPPM(Config &config);
+    void execute() override;
+};
+
+class PrintFFT : public Command
+{
+  private:
+    Config &config;
+
+  public:
+    PrintFFT(Config &config);
+    void execute() override;
+};
+
+class PrintDT : public Command
+{
+  private:
+    Config &config;
+
+  public:
+    PrintDT(Config &config);
     void execute() override;
 };
 

@@ -1,10 +1,10 @@
-Start testing: Oct 08 22:27 WEST
+Start testing: Oct 09 15:12 WEST
 ----------------------------------------------------------
 1/19 Testing: CommandInvokerTest.ExecuteCommands
 1/19 Test: CommandInvokerTest.ExecuteCommands
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=CommandInvokerTest.ExecuteCommands" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"CommandInvokerTest.ExecuteCommands" start time: Oct 08 22:27 WEST
+"CommandInvokerTest.ExecuteCommands" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CommandInvokerTest.ExecuteCommands
@@ -23,7 +23,7 @@ Rate updated to: 10
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandInvokerTest.ExecuteCommands" end time: Oct 08 22:27 WEST
+"CommandInvokerTest.ExecuteCommands" end time: Oct 09 15:12 WEST
 "CommandInvokerTest.ExecuteCommands" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/19 Test: FrequencyCommandTest.FrequencyChange
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=FrequencyCommandTest.FrequencyChange" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"FrequencyCommandTest.FrequencyChange" start time: Oct 08 22:27 WEST
+"FrequencyCommandTest.FrequencyChange" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FrequencyCommandTest.FrequencyChange
@@ -47,10 +47,10 @@ Rate updated to: 10
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FrequencyCommandTest.FrequencyChange" end time: Oct 08 22:27 WEST
+"FrequencyCommandTest.FrequencyChange" end time: Oct 09 15:12 WEST
 "FrequencyCommandTest.FrequencyChange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/19 Test: DurationCommandTest.DurationChange
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=DurationCommandTest.DurationChange" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"DurationCommandTest.DurationChange" start time: Oct 08 22:27 WEST
+"DurationCommandTest.DurationChange" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DurationCommandTest.DurationChange
@@ -74,10 +74,10 @@ Duration updated to: 20
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DurationCommandTest.DurationChange" end time: Oct 08 22:27 WEST
+"DurationCommandTest.DurationChange" end time: Oct 09 15:12 WEST
 "DurationCommandTest.DurationChange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/19 Test: SimplePeakProcessorTest.SignalDetection
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.SignalDetection" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"SimplePeakProcessorTest.SignalDetection" start time: Oct 08 22:27 WEST
+"SimplePeakProcessorTest.SignalDetection" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SimplePeakProcessorTest.SignalDetection
@@ -100,10 +100,10 @@ Note: Google Test filter = SimplePeakProcessorTest.SignalDetection
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"SimplePeakProcessorTest.SignalDetection" end time: Oct 08 22:27 WEST
+"SimplePeakProcessorTest.SignalDetection" end time: Oct 09 15:12 WEST
 "SimplePeakProcessorTest.SignalDetection" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -111,7 +111,7 @@ Test Passed.
 5/19 Test: SimplePeakProcessorTest.MaxPeakDbValues
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.MaxPeakDbValues" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"SimplePeakProcessorTest.MaxPeakDbValues" start time: Oct 08 22:27 WEST
+"SimplePeakProcessorTest.MaxPeakDbValues" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SimplePeakProcessorTest.MaxPeakDbValues
@@ -126,10 +126,10 @@ Note: Google Test filter = SimplePeakProcessorTest.MaxPeakDbValues
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"SimplePeakProcessorTest.MaxPeakDbValues" end time: Oct 08 22:27 WEST
+"SimplePeakProcessorTest.MaxPeakDbValues" end time: Oct 09 15:12 WEST
 "SimplePeakProcessorTest.MaxPeakDbValues" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -137,7 +137,7 @@ Test Passed.
 6/19 Test: SimplePeakProcessorTest.MinPeakDbValues
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=SimplePeakProcessorTest.MinPeakDbValues" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"SimplePeakProcessorTest.MinPeakDbValues" start time: Oct 08 22:27 WEST
+"SimplePeakProcessorTest.MinPeakDbValues" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SimplePeakProcessorTest.MinPeakDbValues
@@ -152,10 +152,10 @@ Note: Google Test filter = SimplePeakProcessorTest.MinPeakDbValues
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"SimplePeakProcessorTest.MinPeakDbValues" end time: Oct 08 22:27 WEST
+"SimplePeakProcessorTest.MinPeakDbValues" end time: Oct 09 15:12 WEST
 "SimplePeakProcessorTest.MinPeakDbValues" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -163,7 +163,7 @@ Test Passed.
 7/19 Test: JackClientTest.InitializeClient
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.InitializeClient" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"JackClientTest.InitializeClient" start time: Oct 08 22:27 WEST
+"JackClientTest.InitializeClient" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = JackClientTest.InitializeClient
@@ -171,17 +171,17 @@ Note: Google Test filter = JackClientTest.InitializeClient
 [----------] Global test environment set-up.
 [----------] 1 test from JackClientTest
 [ RUN      ] JackClientTest.InitializeClient
-[       OK ] JackClientTest.InitializeClient (53 ms)
-[----------] 1 test from JackClientTest (53 ms total)
+[       OK ] JackClientTest.InitializeClient (52 ms)
+[----------] 1 test from JackClientTest (52 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (53 ms total)
+[==========] 1 test from 1 test suite ran. (52 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"JackClientTest.InitializeClient" end time: Oct 08 22:27 WEST
+"JackClientTest.InitializeClient" end time: Oct 09 15:12 WEST
 "JackClientTest.InitializeClient" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -189,7 +189,7 @@ Test Passed.
 8/19 Test: JackClientTest.ActivateClient
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.ActivateClient" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"JackClientTest.ActivateClient" start time: Oct 08 22:27 WEST
+"JackClientTest.ActivateClient" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = JackClientTest.ActivateClient
@@ -197,17 +197,17 @@ Note: Google Test filter = JackClientTest.ActivateClient
 [----------] Global test environment set-up.
 [----------] 1 test from JackClientTest
 [ RUN      ] JackClientTest.ActivateClient
-[       OK ] JackClientTest.ActivateClient (81 ms)
-[----------] 1 test from JackClientTest (81 ms total)
+[       OK ] JackClientTest.ActivateClient (82 ms)
+[----------] 1 test from JackClientTest (82 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (81 ms total)
+[==========] 1 test from 1 test suite ran. (82 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"JackClientTest.ActivateClient" end time: Oct 08 22:27 WEST
+"JackClientTest.ActivateClient" end time: Oct 09 15:12 WEST
 "JackClientTest.ActivateClient" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -215,7 +215,7 @@ Test Passed.
 9/19 Test: JackClientTest.PlayWavFile
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.PlayWavFile" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"JackClientTest.PlayWavFile" start time: Oct 08 22:27 WEST
+"JackClientTest.PlayWavFile" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = JackClientTest.PlayWavFile
@@ -223,17 +223,17 @@ Note: Google Test filter = JackClientTest.PlayWavFile
 [----------] Global test environment set-up.
 [----------] 1 test from JackClientTest
 [ RUN      ] JackClientTest.PlayWavFile
-[       OK ] JackClientTest.PlayWavFile (36 ms)
-[----------] 1 test from JackClientTest (36 ms total)
+[       OK ] JackClientTest.PlayWavFile (39 ms)
+[----------] 1 test from JackClientTest (39 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (36 ms total)
+[==========] 1 test from 1 test suite ran. (39 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"JackClientTest.PlayWavFile" end time: Oct 08 22:27 WEST
+"JackClientTest.PlayWavFile" end time: Oct 09 15:12 WEST
 "JackClientTest.PlayWavFile" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -241,7 +241,7 @@ Test Passed.
 10/19 Test: JackClientTest.ConnectPorts
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=JackClientTest.ConnectPorts" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"JackClientTest.ConnectPorts" start time: Oct 08 22:27 WEST
+"JackClientTest.ConnectPorts" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = JackClientTest.ConnectPorts
@@ -249,17 +249,17 @@ Note: Google Test filter = JackClientTest.ConnectPorts
 [----------] Global test environment set-up.
 [----------] 1 test from JackClientTest
 [ RUN      ] JackClientTest.ConnectPorts
-[       OK ] JackClientTest.ConnectPorts (36 ms)
-[----------] 1 test from JackClientTest (36 ms total)
+[       OK ] JackClientTest.ConnectPorts (58 ms)
+[----------] 1 test from JackClientTest (58 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (36 ms total)
+[==========] 1 test from 1 test suite ran. (58 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"JackClientTest.ConnectPorts" end time: Oct 08 22:27 WEST
+"JackClientTest.ConnectPorts" end time: Oct 09 15:12 WEST
 "JackClientTest.ConnectPorts" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -267,7 +267,7 @@ Test Passed.
 11/19 Test: FFTProcessorTest.ConstructorInitializesCorrectly
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=FFTProcessorTest.ConstructorInitializesCorrectly" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"FFTProcessorTest.ConstructorInitializesCorrectly" start time: Oct 08 22:27 WEST
+"FFTProcessorTest.ConstructorInitializesCorrectly" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FFTProcessorTest.ConstructorInitializesCorrectly
@@ -275,17 +275,17 @@ Note: Google Test filter = FFTProcessorTest.ConstructorInitializesCorrectly
 [----------] Global test environment set-up.
 [----------] 1 test from FFTProcessorTest
 [ RUN      ] FFTProcessorTest.ConstructorInitializesCorrectly
-[       OK ] FFTProcessorTest.ConstructorInitializesCorrectly (2 ms)
-[----------] 1 test from FFTProcessorTest (2 ms total)
+[       OK ] FFTProcessorTest.ConstructorInitializesCorrectly (1 ms)
+[----------] 1 test from FFTProcessorTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FFTProcessorTest.ConstructorInitializesCorrectly" end time: Oct 08 22:27 WEST
+"FFTProcessorTest.ConstructorInitializesCorrectly" end time: Oct 09 15:12 WEST
 "FFTProcessorTest.ConstructorInitializesCorrectly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -293,7 +293,7 @@ Test Passed.
 12/19 Test: FFTProcessorTest.ProcessSinusoidalSignal
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=FFTProcessorTest.ProcessSinusoidalSignal" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"FFTProcessorTest.ProcessSinusoidalSignal" start time: Oct 08 22:27 WEST
+"FFTProcessorTest.ProcessSinusoidalSignal" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FFTProcessorTest.ProcessSinusoidalSignal
@@ -301,17 +301,17 @@ Note: Google Test filter = FFTProcessorTest.ProcessSinusoidalSignal
 [----------] Global test environment set-up.
 [----------] 1 test from FFTProcessorTest
 [ RUN      ] FFTProcessorTest.ProcessSinusoidalSignal
-[       OK ] FFTProcessorTest.ProcessSinusoidalSignal (2 ms)
-[----------] 1 test from FFTProcessorTest (2 ms total)
+[       OK ] FFTProcessorTest.ProcessSinusoidalSignal (1 ms)
+[----------] 1 test from FFTProcessorTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FFTProcessorTest.ProcessSinusoidalSignal" end time: Oct 08 22:27 WEST
+"FFTProcessorTest.ProcessSinusoidalSignal" end time: Oct 09 15:12 WEST
 "FFTProcessorTest.ProcessSinusoidalSignal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -319,7 +319,7 @@ Test Passed.
 13/19 Test: FFTProcessorTest.ProcessZeroSignal
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=FFTProcessorTest.ProcessZeroSignal" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"FFTProcessorTest.ProcessZeroSignal" start time: Oct 08 22:27 WEST
+"FFTProcessorTest.ProcessZeroSignal" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FFTProcessorTest.ProcessZeroSignal
@@ -331,13 +331,13 @@ Note: Google Test filter = FFTProcessorTest.ProcessZeroSignal
 [----------] 1 test from FFTProcessorTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FFTProcessorTest.ProcessZeroSignal" end time: Oct 08 22:27 WEST
+"FFTProcessorTest.ProcessZeroSignal" end time: Oct 09 15:12 WEST
 "FFTProcessorTest.ProcessZeroSignal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -345,7 +345,7 @@ Test Passed.
 14/19 Test: FFTProcessorTest.GetName
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=FFTProcessorTest.GetName" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"FFTProcessorTest.GetName" start time: Oct 08 22:27 WEST
+"FFTProcessorTest.GetName" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FFTProcessorTest.GetName
@@ -353,7 +353,7 @@ Note: Google Test filter = FFTProcessorTest.GetName
 [----------] Global test environment set-up.
 [----------] 1 test from FFTProcessorTest
 [ RUN      ] FFTProcessorTest.GetName
-[       OK ] FFTProcessorTest.GetName (2 ms)
+[       OK ] FFTProcessorTest.GetName (1 ms)
 [----------] 1 test from FFTProcessorTest (2 ms total)
 
 [----------] Global test environment tear-down
@@ -363,7 +363,7 @@ Note: Google Test filter = FFTProcessorTest.GetName
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FFTProcessorTest.GetName" end time: Oct 08 22:27 WEST
+"FFTProcessorTest.GetName" end time: Oct 09 15:12 WEST
 "FFTProcessorTest.GetName" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -371,7 +371,7 @@ Test Passed.
 15/19 Test: FFTProcessorTest.ProcessRandomSignal
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=FFTProcessorTest.ProcessRandomSignal" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"FFTProcessorTest.ProcessRandomSignal" start time: Oct 08 22:27 WEST
+"FFTProcessorTest.ProcessRandomSignal" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FFTProcessorTest.ProcessRandomSignal
@@ -386,10 +386,10 @@ Note: Google Test filter = FFTProcessorTest.ProcessRandomSignal
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"FFTProcessorTest.ProcessRandomSignal" end time: Oct 08 22:27 WEST
+"FFTProcessorTest.ProcessRandomSignal" end time: Oct 09 15:12 WEST
 "FFTProcessorTest.ProcessRandomSignal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -397,7 +397,7 @@ Test Passed.
 16/19 Test: DiscontinuityProcessorTest.GetNameTest
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=DiscontinuityProcessorTest.GetNameTest" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"DiscontinuityProcessorTest.GetNameTest" start time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.GetNameTest" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DiscontinuityProcessorTest.GetNameTest
@@ -412,10 +412,10 @@ Note: Google Test filter = DiscontinuityProcessorTest.GetNameTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DiscontinuityProcessorTest.GetNameTest" end time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.GetNameTest" end time: Oct 09 15:12 WEST
 "DiscontinuityProcessorTest.GetNameTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -423,7 +423,7 @@ Test Passed.
 17/19 Test: DiscontinuityProcessorTest.NoDiscontinuityTest
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=DiscontinuityProcessorTest.NoDiscontinuityTest" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"DiscontinuityProcessorTest.NoDiscontinuityTest" start time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.NoDiscontinuityTest" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DiscontinuityProcessorTest.NoDiscontinuityTest
@@ -438,10 +438,10 @@ Note: Google Test filter = DiscontinuityProcessorTest.NoDiscontinuityTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DiscontinuityProcessorTest.NoDiscontinuityTest" end time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.NoDiscontinuityTest" end time: Oct 09 15:12 WEST
 "DiscontinuityProcessorTest.NoDiscontinuityTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -449,7 +449,7 @@ Test Passed.
 18/19 Test: DiscontinuityProcessorTest.DiscontinuityDetectedTest
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=DiscontinuityProcessorTest.DiscontinuityDetectedTest" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"DiscontinuityProcessorTest.DiscontinuityDetectedTest" start time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.DiscontinuityDetectedTest" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DiscontinuityProcessorTest.DiscontinuityDetectedTest
@@ -464,10 +464,10 @@ Note: Google Test filter = DiscontinuityProcessorTest.DiscontinuityDetectedTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DiscontinuityProcessorTest.DiscontinuityDetectedTest" end time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.DiscontinuityDetectedTest" end time: Oct 09 15:12 WEST
 "DiscontinuityProcessorTest.DiscontinuityDetectedTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -475,7 +475,7 @@ Test Passed.
 19/19 Test: DiscontinuityProcessorTest.SignalLengthMismatchTest
 Command: "/home/wagnerkeller/projects/jackmeter/build/UnitTests" "--gtest_filter=DiscontinuityProcessorTest.SignalLengthMismatchTest" "--gtest_also_run_disabled_tests"
 Directory: /home/wagnerkeller/projects/jackmeter/build
-"DiscontinuityProcessorTest.SignalLengthMismatchTest" start time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.SignalLengthMismatchTest" start time: Oct 09 15:12 WEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DiscontinuityProcessorTest.SignalLengthMismatchTest
@@ -490,11 +490,11 @@ Note: Google Test filter = DiscontinuityProcessorTest.SignalLengthMismatchTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DiscontinuityProcessorTest.SignalLengthMismatchTest" end time: Oct 08 22:27 WEST
+"DiscontinuityProcessorTest.SignalLengthMismatchTest" end time: Oct 09 15:12 WEST
 "DiscontinuityProcessorTest.SignalLengthMismatchTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 08 22:27 WEST
+End testing: Oct 09 15:12 WEST

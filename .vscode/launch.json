@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",          // Name of the configuration
+            "type": "cppdbg",                // Type is GDB/LLDB debugger for C++
+            "request": "launch",             // Launch the program
+            "program": "${workspaceFolder}/build/JackMeter",  // Path to the compiled program
+            "args": [],                      // Arguments passed to the program
+            "stopAtEntry": false,            // Do not stop at the program entry point
+            "cwd": "${workspaceFolder}",     // Working directory
+            "environment": [],               // Environment variables
+            "externalConsole": false,        // Use VSCode's internal console for debugging output
+            "MIMode": "gdb",                 // Specifies that GDB will be used
+            "setupCommands": [               // GDB setup commands
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "miDebuggerPath": "/usr/bin/gdb",  // Path to GDB (adjust if needed)
+            "preLaunchTask": "",               // Optional: run a task before launching (e.g., build task)
+            "postDebugTask": "",               // Optional: run a task after debugging
+            "logging": {
+                "trace": true,                 // Enable detailed logging for debugging issues
+                "traceResponse": true,
+                "engineLogging": true
+            },
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${workspaceFolder}/path/build/JackMeter",
+                "pipeArgs": [],
+                "pipeCwd": "${workspaceFolder}"
+            },
+            "launchCompleteCommand": "exec-run", // Default command to run your program
+            "targetArchitecture": "x86_64"       // Target architecture, adjust if needed
+        }
+    ]
+}

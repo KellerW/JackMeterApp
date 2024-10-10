@@ -1,5 +1,6 @@
 /home/wagnerkeller/projects/jackmeter/build/CMakeFiles/jackmeter_core.dir
-/home/wagnerkeller/projects/jackmeter/build/CMakeFiles/JackMeter.dir
+/home/wagnerkeller/projects/jackmeter/build/CMakeFiles/JackMeterCLI.dir
+/home/wagnerkeller/projects/jackmeter/build/CMakeFiles/JackMeterGUI.dir
 /home/wagnerkeller/projects/jackmeter/build/CMakeFiles/UnitTests.dir
 /home/wagnerkeller/projects/jackmeter/build/CMakeFiles/test.dir
 /home/wagnerkeller/projects/jackmeter/build/CMakeFiles/edit_cache.dir

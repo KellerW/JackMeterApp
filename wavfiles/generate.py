@@ -4,7 +4,7 @@ from scipy.io.wavfile import write
 # Parâmetros para o áudio
 sample_rate = 44100  # 44.1kHz padrão
 duration_per_note = 1  # Duração de cada nota em segundos
-amplitude = 0.5  # Amplitude das notas (entre 0 e 1)
+amplitude = 1  # Amplitude das notas (entre 0 e 1)
 
 # Frequências das notas (em Hz) para a escala de C maior (C, D, E, F, G, A, B, C)
 frequencies = [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88, 523.25] 

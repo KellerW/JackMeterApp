@@ -16,32 +16,24 @@ public:
     void Process(float* samples, uint32_t nSamples) override;
     bool SignalDetected() const override;
 
-    float GetCurrentPPMDb() const override;
-    float GetPeakHoldDb() const override;
-    void ResetPeakHold() override;
+    double GetLatestPeak() const;
+    double GetLatestPeakDb() const;
 
-    float GetLatestPeak() const;
-    float GetLatestPeakDb() const;
+    double GetMinPeak() const;
+    double GetMinPeakDb() const;
 
-    float GetMinPeak() const;
-    float GetMinPeakDb() const;
-
-    float GetMaxPeak() const;
-    float GetMaxPeakDb() const;
+    double GetMaxPeak() const;
+    double GetMaxPeakDb() const;
 
     std::string_view GetName() const override;
 
 private:
     std::string m_name;
     std::atomic<float> m_latestPeak;
-    std::atomic<float> m_minPeak;
+    float m_minPeak=0;
     std::atomic<float> m_maxPeak;
     std::atomic<float> m_noiseThreshold;
-    float m_currentPPM;
-    float m_peakHold;
-    float m_decayRate;
-    float m_peakHoldTime;
-
+   
     std::chrono::time_point<std::chrono::steady_clock> m_lastTime;
     mutable std::mutex m_mutex;
     std::atomic<bool> m_signalDetected{false};

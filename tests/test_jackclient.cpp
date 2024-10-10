@@ -38,7 +38,7 @@ TEST_F(JackClientTest, ActivateClient) {
 // Test case to check if playing a WAV file works
 TEST_F(JackClientTest, PlayWavFile) {
     // Provide a path to a valid WAV file
-    std::string wavFilePath = "test.wav";  // Make sure to use an actual file path
+    std::string wavFilePath = "/home/wagnerkeller/projects/jackmeter/wavfiles/test.wav";  // Make sure to use an actual file path
 
     // Attempt to play the WAV file
     ASSERT_NO_THROW({

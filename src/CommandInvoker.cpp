@@ -1,4 +1,4 @@
-#include "CommandInvoker.h"
+#include "CommandInvoker.hpp"
 
 namespace jackmeter
 {

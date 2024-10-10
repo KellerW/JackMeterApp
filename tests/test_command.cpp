@@ -1,4 +1,4 @@
-#include "CommandInvoker.h"
+#include "CommandInvoker.hpp"
 #include "Commands.hpp"
 #include "JackClient.hpp"
 #include <gmock/gmock.h>

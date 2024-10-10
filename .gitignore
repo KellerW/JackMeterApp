@@ -1,0 +1,11 @@
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/misc
+*.o
+*.obj
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
